@@ -1,16 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environment
 venv/
-__pycache__/
-*.py[cod]
-*$py.class
-models/
-__pycache__/
-*.py[cod]
-*$py.class
-models/
-*.bin
+.venv/
+env/
+
+# Environment variables (ТОКЕНЫ НЕ КОММИТИМ!)
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Output & temp
+output/
+tmp/
+.trash/
+
+# Large test files (> 100 MB GitHub limit)
+test_data/long_30min.wav
+test_data/*.mp4
+test_data/*.mkv
+
+# Local vendors (слишком большой для GitHub)
+vendors/
+
+# Model files
+*.nemo
 *.pt
 *.pth
-tmp/
-*.tmp
-.env
-.DS_Store
+*.ckpt
+
+# Notebooks
+.ipynb_checkpoints/
