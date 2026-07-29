@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+models/
+__pycache__/
+*.py[cod]
+*$py.class
+models/
+*.bin
+*.pt
+*.pth
+tmp/
+*.tmp
+.env
+.DS_Store
