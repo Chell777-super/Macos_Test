@@ -28,7 +28,7 @@ class AsrConfig:
 @dataclass
 class DiarizationConfig:
     """Настройки диаризации."""
-    model_name: str = "nvidia/diar_streaming_sortformer_4spk-v2"  # Streaming v2 вместо v1
+    model_name: str = "nvidia/diar_streaming_sortformer_4spk-v2.1"  # Streaming v2 вместо v1
     min_speakers: Optional[int] = None
     max_speakers: Optional[int] = None
     exact_speakers: Optional[int] = None
